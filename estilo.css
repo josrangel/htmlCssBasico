@@ -1,0 +1,67 @@
+body{
+	background-image: url("fondoAzul.jpg");
+	background-size: 100%;
+	font-family: arial;
+	text-align: justify;
+	margin: auto;
+
+}
+
+header{
+	position: fixed;
+	overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #333;
+    font-size: 20px;
+    color: #FFFFFF;
+    z-index: 5;
+}
+
+footer{
+	position: fixed;
+    bottom:  0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #333;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+content{
+	position: relative;
+	padding-top: 10%;
+	height: 100%;
+	width: 100%;
+    overflow: auto;
+    padding: 10% 5%;
+    width: 100%;
+    color: white;
+    /**background-color: white;*/
+}
+
+.p1{
+	font-family: sans-serif;
+}
+
+.p2{
+	font-family: serif;
+}
+
+.p3{
+	font-family: fantasy;
+}
+
+.p4{
+	font-family: monospace;
+}
+
+table tr td{
+	padding: 5px;
+}
+
+#video{
+	text-align: center;
+}
